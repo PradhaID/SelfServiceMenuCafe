@@ -9,9 +9,9 @@ defined('APP_PATH') || define('APP_PATH', BASE_PATH . '/app');
 return new \Phalcon\Config([
     'database' => [
         'adapter'     => 'Postgresql',
-        'host'        => 'sgp.warungcsi.id',
-        'username'    => 'postgres',
-        'password'    => 'c4kr4bu4n4',
+        'host'        => 'database host',
+        'username'    => 'database user',
+        'password'    => 'database password',
         'dbname'      => 'cafe',
         'schema'      => 'content',
     ],
